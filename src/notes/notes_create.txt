@@ -1,1 +1,12 @@
+npm install -g @angular/cli
+ng new ngBabylon --style=scss
+cd ngBabylon
 npm install --save bootstrap babylonjs babylonjs-materials
+----------git -------------
+echo "# ngBabylon" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/ttaiken/ngBabylon.git
+git push -u origin master
+----------------------
